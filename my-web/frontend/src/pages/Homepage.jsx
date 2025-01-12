@@ -10,10 +10,10 @@ function Homepage() {
             <div className="header">
                 <div className="header-wrapper">
                     <img className="logo" src={Logo} />
-                    <span className="button">Button 1</span>
-                    <span className="button">Button 2</span>
-                    <span className="button">Button 3</span>
-                    <span className="button">Button 4</span>
+                    <span className="button">About Us</span>
+                    <span className="button">Contact</span>
+                    <span className="button">Scatter</span>
+                    <span className="button">Account</span>
                 </div>
             </div>
 
@@ -21,15 +21,13 @@ function Homepage() {
             <div className="body">
                 <div className="body-wrapper">
                     <div className="product-display">
-                        <div className="product-display-top">
-                            <input
-                                className="filter"
-                                placeholder="Search"
-                                type="text"
-                            />
-                        </div>
+                        <input
+                            className="filter"
+                            placeholder="Search"
+                            type="text"
+                        />
 
-                        <div className="product-display-bottom">
+                        <div className="product-display-wrapper">
                             <ProductInfo product={Product.permaProducts[0]} />
                             <ProductInfo product={Product.permaProducts[1]} />
                             <ProductInfo product={Product.permaProducts[2]} />
